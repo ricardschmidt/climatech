@@ -25,8 +25,8 @@
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="img/theme/clima-1.jpg"></b-carousel-slide>
-                            <b-carousel-slide img-src="img/theme/clima-2.jpg"></b-carousel-slide>
+                            <b-carousel-slide img-src="https://ras-upload.s3.amazonaws.com/sites/climatech/img/theme/clima-1.jpg"></b-carousel-slide>
+                            <b-carousel-slide img-src="https://ras-upload.s3.amazonaws.com/sites/climatech/img/theme/clima-2.jpg"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>
