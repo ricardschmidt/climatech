@@ -5,6 +5,7 @@ import AppFooter from "./layout/AppFooter";
 import Index from "./views/Index.vue";
 import AboutUs from "./views/AboutUs.vue";
 import PageNotFound from "./views/PageNotFound.vue";
+import Depositions from "./views/Depositions.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
@@ -30,6 +31,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: AboutUs,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/depositions",
+      name: "depositions",
+      components: {
+        header: AppHeader,
+        default: Depositions,
         footer: AppFooter
       }
     },

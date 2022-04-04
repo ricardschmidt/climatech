@@ -29,7 +29,7 @@
                                 <i class="fa fa-film"></i>
                             </div>
                             <div class="media-body ml-3">
-                                <h6 class="heading text-primary mb-md-1">Portifólio</h6>
+                                <h6 class="heading text-primary mb-md-1">Portfólio</h6>
                                 <p class="description d-none d-md-inline-block mb-0">Aqui estão nossas fotos e vídeos.</p>
                             </div>
                         </router-link>
@@ -40,7 +40,7 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h5 class="heading text-warning mb-md-1">Depoimentos</h5>
-                                <p class="description d-none d-md-inline-block mb-0">O que os nossos clientes tem a falar.</p>
+                                <p class="description d-none d-md-inline-block mb-0">O que os nossos clientes têm a falar.</p>
                             </div>
                         </router-link>
                     </div>

@@ -168,7 +168,7 @@
                                     <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
                                 </svg>
-                                <h4 class="display-3 font-weight-bold text-white">Design System</h4>
+                                <h4 class="display-3 font-weight-bold text-white">Climatech</h4>
                                 <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
                                     the sea-ice then thaws every summer, and that process will continue whatever
                                     happens.</p>
@@ -179,7 +179,7 @@
                         <div class="pl-md-5">
                             <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
 
-                            <h3>Our customers</h3>
+                            <h3>Sobre nós</h3>
                             <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
                                 Just make sure you enable them first via JavaScript.</p>
                             <p>The kit comes with three pre-built pages to help you get started faster. You can change
@@ -216,19 +216,23 @@
                                       rounded></icon>
                             </div>
                             <div class="pl-4">
-                                <h4 class="display-3 text-white">Modern Interface</h4>
-                                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then
-                                    thaws every summer, and that process will continue whatever happens.</p>
+                                <h4 class="display-3 text-white">O que fazemos?</h4>
+                                <p class="text-white">
+                                    Aqui está uma lista com as 
+                                    nossas principais áreas de atuação, sempre 
+                                    priorizando a segurança e comodidade dos 
+                                    nossos clientes.
+                                </p>
                             </div>
                         </div>
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
+                                    <icon name="ni ni-ruler-pencil" gradient="success" color="white" shadow
                                           rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-success">Awesome Support</h5>
+                                    <h5 class="title text-success">Projetos</h5>
                                     <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
                                         every summer, and that process will continue whatever happens.</p>
                                     <a href="#" class="text-success">Learn more</a>
@@ -238,14 +242,28 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow
+                                    <icon name="ni ni-settings" gradient="warning" color="white" shadow
                                           rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-warning">Modular Components</h5>
+                                    <h5 class="title text-warning">Instalação</h5>
                                     <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
                                         every summer, and that process will continue whatever happens.</p>
                                     <a href="#" class="text-warning">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-bullet-list-67" gradient="primary" color="white" shadow
+                                          rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-primary">Manutenção</h5>
+                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                                        every summer, and that process will continue whatever happens.</p>
+                                    <a href="#" class="text-primary">Learn more</a>
                                 </div>
                             </div>
                         </card>
@@ -265,7 +283,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'img/theme/team-1-800x800.jpg'"
+                            <img v-lazy="'https://ras-upload.s3.amazonaws.com/sites/climatech/img/theme/team-1-800x800.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
@@ -278,7 +296,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'img/theme/team-2-800x800.jpg'"
+                            <img v-lazy="'https://ras-upload.s3.amazonaws.com/sites/climatech/img/theme/team-2-800x800.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
@@ -302,8 +320,8 @@
                         <div class="row align-items-center">
                             <div class="col-lg-8">
                                 <h3 class="text-white">Nós faremos o melhor por você.</h3>
-                                <p class="lead text-white mt-3">Nossa equipe, esta disponível para manutenções, instalações
-                                    e projetos de climatização.
+                                <p class="lead text-white mt-3">Nossa equipe está disponível para manutenções, 
+                                    instalações e projetos de climatização.
                                 </p>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
@@ -327,28 +345,33 @@
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="display-3 text-white">Build something</h2>
-                        <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-                            tihs year down to low ice.</p>
+                        <h2 class="display-3 text-white">Nossos Parceiros</h2>
+                        <p class="lead text-white">
+                            Procuramos parcerias com as melhores marcas para 
+                            sempre trazer o melhor aos nossos clientes, tanto em 
+                            questão de custos, quanto de qualidade e durabilidade.
+                        </p>
                     </div>
                 </div>
                 <div class="row row-grid mt-5">
                     <div class="col-lg-4">
-                        <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Building tools</h5>
+                        <img v-lazy="'https://ras-upload.s3.amazonaws.com/sites/climatech/img/partners/samsung.png'" alt="Circle image"
+                            class="img-fluid rounded-circle shadow" style="width: 100px;">
+                        <h5 class="text-white mt-3">Sumsung</h5>
                         <p class="text-white mt-3">Some quick example text to build on the card title and make up the
                             bulk of the card's content.</p>
                     </div>
                     <div class="col-lg-4">
-                        <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Grow your market</h5>
+                        <img v-lazy="'https://ras-upload.s3.amazonaws.com/sites/climatech/img/partners/lg.png'" alt="Circle image"
+                            class="img-fluid rounded-circle shadow" style="width: 100px;">
+                        <h5 class="text-white mt-3">LG</h5>
                         <p class="text-white mt-3">Some quick example text to build on the card title and make up the
                             bulk of the card's content.</p>
                     </div>
                     <div class="col-lg-4">
-                        <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Launch time</h5>
+                        <img v-lazy="'https://ras-upload.s3.amazonaws.com/sites/climatech/img/partners/komeco.png'" alt="Circle image"
+                            class="img-fluid rounded-circle shadow" style="width: 100px;">
+                        <h5 class="text-white mt-3">Komeco</h5>
                         <p class="text-white mt-3">Some quick example text to build on the card title and make up the
                             bulk of the card's content.</p>
                     </div>
@@ -363,7 +386,7 @@
                             <span class="text-success">tudo que podemos fazer?</span>
                         </h2>
                         <p class="lead">Caso tenha gostado você pode entrar em contato conosco e solicitar um orçamento,
-                            clicando no botão abaixo. Você será redirecinado para nosso whatsapp onde iremos lhe atender
+                            clicando no botão abaixo. Você será redirecionado para nosso whatsapp onde iremos lhe atender
                             da melhor forma possível.
                         </p>
                         <div class="btn-wrapper">
