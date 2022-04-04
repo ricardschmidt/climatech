@@ -11,9 +11,11 @@
             <div class="row text-center justify-content-center">
                 <div class="col-lg-10">
                     <h2 class="display-3 text-white">O que fazemos?</h2>
-                    <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
-                        Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-                        tihs year down to low ice.</p>
+                    <p class="lead text-white">
+                        Aqui está uma lista com as nossas principais áreas de 
+                        atuação, sempre priorizando a segurança e comodidade dos 
+                        nossos clientes.
+                    </p>
                 </div>
             </div>
             <div class="row row-grid mt-5">
@@ -44,7 +46,7 @@
                 <div class="col-lg-8">
                     <card gradient="secondary" shadow body-classes="p-lg-5">
                         <h4 class="mb-1">Agende sua visita agora!</h4>
-                        <p class="mt-0">Diganos o que você precisa.</p>
+                        <p class="mt-0">Diga-nos o que você precisa.</p>
                         <base-input class="mt-5"
                                     alternative
                                     placeholder="Seu Nome"
